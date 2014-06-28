@@ -1,4 +1,9 @@
 #include "BigInteger.h"
+/*file nay thieu nhie*/
+
+
+
+
 void BigInteger::setso(string so_lon){
 	for (int i = 0; i < so_lon.length() - 1; i++){
 		if (so_lon[i] == '0'){
@@ -8,8 +13,7 @@ void BigInteger::setso(string so_lon){
 	}
 	this->so_lon = so_lon;
 }
-string BigInteger::getso()const{
-	return so_lon;
+
 }
 BigInteger::BigInteger(){
 	so_lon = "0";
